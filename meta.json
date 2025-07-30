@@ -1,0 +1,11 @@
+{
+  adsFrequency:1,
+  reelsAudio:[
+    {
+      id:1,
+      name:"Beat",
+      duration:0.32,
+      link:"www.google.com"
+    }
+  ]
+}
