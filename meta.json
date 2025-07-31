@@ -1,11 +1,19 @@
 {
-  adsFrequency:1,
-  reelsAudio:[
-    {
-      id:1,
-      name:"Beat",
-      duration:0.32,
-      link:"www.google.com"
-    }
-  ]
+  "backendUrl": "https://quick-survey-server.quicksurveys.io",
+  "adsFrequency": 3,
+  "maxUploadSizeMB": 50,
+  "showRewardedAd": true,
+  "bannerAdUnitId": "ca-app-pub-xxxxxxxxxxxxxxxx/banner_id",
+  "rewardedAdUnitId": "ca-app-pub-xxxxxxxxxxxxxxxx/rewarded_id",
+  "isAppLive": true,
+  "maintenanceMessage": "We are currently upgrading. Please try again later.",
+  "supportedPlatforms": ["android"],
+  "versionCode": 5,
+  "forceUpdate": false,
+  "updateUrl": "https://play.google.com/store/apps/details?id=com.myapp",
+  "features": {
+    "videoDownload": true,
+    "audioExtraction": true,
+    "toolSection": true
+  }
 }
